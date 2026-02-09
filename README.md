@@ -80,6 +80,56 @@ Each guide is designed to be comprehensive yet easy to follow, with clear OS-spe
 
 ---
 
+## 📦 Project Dependencies (Optional)
+
+After completing the setup guides, you can install all necessary packages for advanced Python development:
+
+### Installing from requirements.txt
+
+The included `requirements.txt` contains packages for:
+- 🤖 Building transformers from scratch (PyTorch)
+- 🔗 Working with LangChain framework
+- 🌐 Integrating OpenAI, Anthropic (Claude), and Google Gemini APIs
+- 📊 Data processing and visualization
+- 📓 Jupyter notebooks for interactive development
+
+**Installation:**
+
+1. **Create and activate virtual environment** (see [venv guide](python-venv-guide.md))
+
+   **Windows:**
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+   **Linux/macOS:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+2. **Install all packages:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Set up API keys** (if using LLM providers):
+   - Copy `.env.example` to `.env`
+   - Add your API keys (OpenAI, Anthropic, Google)
+   - See [PROJECT_SETUP.md](PROJECT_SETUP.md) for details
+
+**What's Included:**
+- PyTorch, NumPy, SciPy (ML/DL)
+- Transformers, Tokenizers (Hugging Face)
+- LangChain + OpenAI/Anthropic/Gemini integrations
+- Pandas, Matplotlib, Seaborn (data & viz)
+- ChromaDB, FAISS (vector stores)
+- Jupyter notebooks
+- Development tools (pytest, black, flake8)
+
+---
+
 ## 💡 Prerequisites
 
 ### All Operating Systems
@@ -137,4 +187,4 @@ If you encounter any issues during the installation process:
 
 **Last Updated:** February 2026
 
-**Version:** 1.0 - Multi-Platform Support
+**Version:** 2.0 - Multi-Platform Support
