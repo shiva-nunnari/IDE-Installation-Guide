@@ -137,4 +137,4 @@ If you encounter any issues during the installation process:
 
 **Last Updated:** February 2026
 
-**Version:** 2.0 - Multi-Platform Support
+**Version:** 1.0 - Multi-Platform Support
